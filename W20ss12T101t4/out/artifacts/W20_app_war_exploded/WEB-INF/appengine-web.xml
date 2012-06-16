@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <!--application>lastfmanalyzer</application-->
+    <application>fit-w20-ss12-101-4</application>
+    <version>1</version>
+    <system-properties>
+        <property name="analyzer.groupName" value="Czech Metal"/>
+        <!--<property name="analyzer.erdos" value="Zdenda"/>-->
+        <property name="analyzer.erdos" value="John_Beak"/>
+        <property name="appengine.datastore.disableChunkSizeWarning" value="" />
+    </system-properties>
+
+</appengine-web-app>

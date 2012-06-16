@@ -1,0 +1,12 @@
+<backends>
+    <!--<backend name="snapshot">-->
+        <!--<options>-->
+            <!--<dynamic>true</dynamic>-->
+        <!--</options>-->
+    <!--</backend>-->
+    <backend name="gexf">
+        <options>
+            <dynamic>true</dynamic>
+        </options>
+    </backend>
+</backends>
