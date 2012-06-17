@@ -53,8 +53,6 @@ public class Mailer {
         try {
             Message msg = new MimeMessage(session);
             msg.setFrom(new InternetAddress("lubos.helcl@gmail.com", "last.fm analyzer"));
-            msg.addRecipient(Message.RecipientType.TO, new InternetAddress("malekja1@fit.cvut.cz", "jarda"));
-            msg.addRecipient(Message.RecipientType.TO, new InternetAddress("pensimil@fit.cvut.cz", "milos"));
             msg.addRecipient(Message.RecipientType.TO, new InternetAddress("lubos.helcl@gmail.com", "lubos"));
             msg.setSubject("Last.fm analyzer message: " + message.toString());
             msg.setSentDate(new Date());
